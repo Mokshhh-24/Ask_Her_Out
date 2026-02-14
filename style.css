@@ -11,7 +11,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #ffe5e5;
+  background: linear-gradient(135deg, #ffdde1, #ee9ca7);
 }
 
 .container {
@@ -22,6 +22,21 @@ body {
   gap: 20px;
   max-width: 500px;
   margin: 20px;
+}
+
+.container {
+  background: white;
+  padding: 30px 25px;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+}
+
+p, a {
+  font-family: 'Inter', sans-serif;
 }
 
 .container .tenor-gif-embed {
@@ -41,3 +56,18 @@ body {
   border-radius: 8px;
   box-shadow: 0.5rem 1rem 3rem hsl(0, 0%, 0%, 0.3);
 }
+
+.btn a {
+  transition: all 0.3s ease;
+}
+
+.btn a:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+
+.btn a:first-child {
+  background: #ff5c8d;
+  color: white;
+}
+
